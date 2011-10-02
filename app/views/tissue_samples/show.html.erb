@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Description:</b>
+  <%= @tissue_sample.description %>
+</p>
+
+<p>
+  <b>Id:</b>
+  <%= @tissue_sample.id %>
+</p>
+
+<p>
+  <b>User:</b>
+  <%= @tissue_sample.user_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_tissue_sample_path(@tissue_sample) %> |
+<%= link_to 'Back', tissue_samples_path %>
