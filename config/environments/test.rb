@@ -39,4 +39,7 @@ Tissuetrak::Application.configure do
 
   # Allow pass debug_assets=true as a query parameter to load pages with unpackaged assets
   config.assets.allow_debugging = true
+  
+  # Set the asset path
+  config.action_controller.asset_path = "/public"
 end

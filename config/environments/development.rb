@@ -27,4 +27,7 @@ Tissuetrak::Application.configure do
 
   # Expands the lines which load the assets
   config.assets.debug = true
+  
+  #set the asset path
+  config.action_controller.asset_path = "/public"
 end
